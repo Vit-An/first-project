@@ -1,0 +1,152 @@
+.header {
+  padding: 12px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; }
+
+.header__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__logo {
+  margin-right: auto; }
+
+.navbar__items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.navbar__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.navbar__item:not(:last-child):after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  background: #fff;
+  border-radius: 50%; }
+
+.navbar__link {
+  margin: 15px;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500; }
+
+.navbar__link:hover {
+  text-decoration: underline; }
+
+.button {
+  color: #fff;
+  background-color: #e45028;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500; }
+
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: fixed;
+  top: 15%;
+  right: 30px;
+  z-index: 10; }
+
+.nav__link {
+  display: block;
+  padding: 4px;
+  margin: 3px;
+  border: 1px solid transparent;
+  border-radius: 50%; }
+
+.nav__link:after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%; }
+
+.nav__link_active {
+  border-color: #fff; }
+
+.about {
+  background: url("images/header.png") no-repeat 50% 50%;
+  background-size: cover;
+  position: relative; }
+
+.about:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("images/texture.png") repeat; }
+
+.about__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative; }
+
+.about__photo {
+  width: 50%;
+  height: auto; }
+
+.about__description {
+  width: 50%; }
+
+.about__title {
+  font-family: "Gagalin";
+  font-size: 72px;
+  color: #f9b43b;
+  margin-bottom: 20px; }
+
+.about__text {
+  font-family: "Lifehack";
+  color: #fff;
+  font-size: 65px;
+  line-height: 0.95; }
+
+.button-next {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
+  height: 18px;
+  width: 18px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff; }
