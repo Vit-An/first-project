@@ -1,0 +1,144 @@
+.order{
+    background: url(../images/order.png) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.section__title{
+    text-align: center;
+    font-family: 'Gagalin';
+    font-size: rem(72px);
+    line-height: rem(64px);
+    color: #f9b43b;
+    margin-bottom: rem(80px);
+    margin-top: 0;
+
+    @media(max-width:rem(767px)){
+        font-size: rem(50px);
+        margin-bottom: rem(50px);
+
+    }
+
+    @media(max-width:rem(479px)){
+        font-size: rem(50px);
+        margin-bottom: rem(25px);
+    }
+
+}
+
+.order-form {
+
+    @media(max-width:rem(767px)){
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    @media(max-width:rem(479px)){
+        width: 100%;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 rem(-10px);
+    }
+    &__col{
+        @media(max-width:rem(479px)){
+            text-align: center;
+        }
+    }
+
+    &__row > &__col,
+    &__row > &__group {
+        width: 100%;
+        padding: 0 rem(10px);
+    }
+
+    &__row_w_50 > &__col,
+    &__row_w_50 > &__group {
+        width: 50%;
+    }
+
+    &__row_w_50 > &__col{
+       
+        @media(max-width:rem(767px)){
+            width: 100%;
+        }
+    }
+
+    &__row_w_25 > &__col,
+    &__row_w_25 > &__group {
+        width: 25%;
+    }
+
+    &__group {
+        display: block;
+        margin-bottom: rem(15px);
+    }
+
+    &__label {
+        margin-bottom: rem(5px);
+        color: #fff;
+        font-size: rem(14px);
+        line-height: rem(24px);
+        font-family: "Ubuntu";
+        font-weight: 300;
+
+    }
+
+    &__input {
+        display: block;
+        width: 100%;
+        border: none;
+        height: rem(35px);
+        border-radius: rem(5px);
+        outline: 0;
+        padding: rem(10px);
+
+    }
+
+    &__input_type_textarea{
+        height: rem(115px);
+        resize: none;
+
+    }
+
+    &__radio-group{
+    }
+
+    &__radio-group:not(:last-child) {
+        margin-right: rem(20px);
+    }
+
+    &__radio {
+        margin-right: rem(5px);
+    }
+
+    &__radio-title {
+        color: #fff;
+        font-size: rem(14px);
+        line-height: rem(24px);
+        font-family: "Ubuntu";
+        font-weight: 300;
+
+    }
+}
+
+.button{
+    border: none;
+    font-size: rem(13px);
+    font-family: "Ubuntu";
+    font-weight: medium;
+    cursor: pointer;
+    outline: none;
+
+    &_background_transparent{
+        background-color: transparent;
+        text-transform: none;
+        font-size: rem(14px);
+        line-height: rem(24px);
+        font-family: "Ubuntu";
+        font-weight: 300;
+
+    }
+}

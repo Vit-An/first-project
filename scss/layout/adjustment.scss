@@ -4,7 +4,8 @@
     position: relative;
   }
 .container{
-    width: 940px;
+    padding:0 rem(10px);
+    max-width: rem(940px);
     margin: 0 auto;
 }
 .section{
@@ -12,6 +13,6 @@
     display: flex;
     align-items: center;
     background-color: rgba(0,0,0,0.31);
-    min-width: 940px;
-    min-height: 650px;
+    // min-width: rem(940px);
+    min-height: rem(650px);
 }

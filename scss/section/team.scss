@@ -1,0 +1,134 @@
+.team{
+    background: url(../images/team.png) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+
+    &__content{
+        padding: 0 rem(80px);
+
+        @media(max-width:rem(767px)){
+            text-align: center;
+        }
+    }
+}
+
+.bg{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(#2f3234,0.93);
+
+    @media(max-width:rem(767px)){
+        width: 100%;
+    }
+    
+}
+.section-title{
+    font-family: 'Gagalin';
+    font-size: rem(72px);
+    line-height: rem(64px);
+    margin: rem(90px) 0;
+    color: #f9b43b;
+    
+    @media(max-width:rem(479px)){
+        font-size: rem(50px);
+
+    }
+}
+
+
+.team-acco{
+    
+    @media(max-width:rem(767px)){
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    @media(max-width:rem(479px)){
+        width: 100%;
+
+    }
+
+    &__inner{
+
+    display: none;
+
+    @media(max-width:rem(767px)){
+    flex-direction: column;
+    align-items: center;
+    }
+
+    }
+
+    &_active &__inner {
+        display: flex;
+    }
+
+    &__name{
+    
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Gagalin';
+    font-size: rem(14px);
+    line-height: rem(28px);
+    margin-bottom: rem(20px);
+    display: flex;
+    align-items: center;
+
+        &:before{
+            content: "";
+            height: 0;
+            width: 0;
+            border: rem(9px) solid transparent;
+            border-top-color: #f9b43b;
+            border-bottom-width: 0;
+            margin-right: rem(10px);
+        }
+
+    
+    @media(max-width:rem(767px)){
+        justify-content: center;
+        }
+    }
+
+    &_active &__name {
+        color:#f9b43b;
+
+        &:before{
+            transform: rotate(-180deg);
+        }
+    }
+}
+
+.acco-photo{
+    border-radius: 50%;
+    width: rem(100px);
+    height: rem(100px);
+   
+}
+.inform{
+    margin-left: rem(10px);
+
+    @media(max-width:rem(767px)){
+        margin-left: 0;
+        margin-top: rem(10px);
+        }
+
+    &__title{
+    color: #fff;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    margin-bottom: rem(15px);
+    }
+
+    &__content{
+    color:#fff;
+    font-size:rem(14px);
+    line-height: rem(24px);
+    font-family: "Ubuntu";
+    font-weight: 300;
+    }
+}
