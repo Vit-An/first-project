@@ -12,9 +12,14 @@
     height: 50%;
     position: relative;
 
+    @media(max-width:rem(767px)){
+        width: 50%;
+        height: 25%;
+    }
+
     &__info{
     opacity: 0;
-    padding: 30px;
+    padding: rem(30px);
     position: absolute;
     top:0;
     right: 0;
@@ -22,6 +27,16 @@
     left: 0;
     background: rgba(0, 0, 0, 0.5);
     transition: all 0.4s;
+    
+    @media(max-width:rem(767px)){
+        padding: rem(5px) rem(30px);
+        text-align: center;
+    }
+
+    @media(max-width:rem(479px)){
+        padding: rem(20px) rem(15px);
+    }
+
     }
 
     &:hover .review__info{
@@ -29,33 +44,54 @@
     }
 
     &__title{
-    font-family: 'Gagalin-Regular';
-    font-size: 14px;
-    line-height: 28.11px;
+    font-family: 'Gagalin';
+    font-size: rem(14px);
+    line-height: rem(28px);
     text-transform: uppercase;
     color: #fff;
     font-weight: 400;
-    margin: 0 0 20px;
+    margin: 0 0 rem(20px);
+
+    @media(max-width:rem(767px)){
+        margin:0;
+
+    }
+    @media(max-width:rem(479px)){
+        padding-bottom: rem(40px)
+    }
+   
     }
 
     &__text{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: rem(14px);
+    line-height: rem(24px);
     color: #fff;
-    margin: 0 0 10px;
+    margin: 0 0 rem(10px);
+
+    @media(max-width:rem(767px)){
+        font-size: rem(12px);
+        line-height: 1.5;
+
     }
 
-    &__button{
-    color: #fff;
+    @media(max-width:rem(479px)){
+        display: none;
+    }
+    }
+}
+
+
+
+.button_reviews{
     background-color: #2f3234;
-    text-decoration: none;
-    padding: 10px 16px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    display: inline-block;
-    font-size: 13px;
+    font-size: rem(13px);
     font-weight: 500;
+
+    @media(max-width:rem(767px)){
+        padding: rem(8px) rem(10px);
+        font-size: rem(10px);
+
     }
 }

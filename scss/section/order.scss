@@ -1,0 +1,208 @@
+.order{
+    background: url(../images/order.png) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.title_order{
+    text-align: center;
+    margin-bottom: rem(80px);
+
+    @media(max-width:rem(767px)){
+        margin-bottom: rem(40px);
+
+    }
+
+    @media(max-width:rem(479px)){
+        margin-bottom: rem(15px);
+    }
+
+}
+
+.order-form {
+
+    @media(max-width:rem(767px)){
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    @media(max-width:rem(479px)){
+        width: 100%;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 rem(-10px);
+    }
+    &__col{
+        @media(max-width:rem(479px)){
+            text-align: center;
+        }
+    }
+
+    &__row > &__col,
+    &__row > &__group {
+        width: 100%;
+        padding: 0 rem(10px);
+    }
+
+    &__row_w_50 > &__col,
+    &__row_w_50 > &__group {
+        width: 50%;
+    }
+
+    &__row_w_50 > &__col{
+       
+        @media(max-width:rem(767px)){
+            width: 100%;
+        }
+    }
+
+    &__row_w_25 > &__col,
+    &__row_w_25 > &__group {
+        width: 25%;
+    }
+
+    &__group {
+        display: block;
+        margin-bottom: rem(15px);
+    }
+
+    &__label {
+        margin-bottom: rem(5px);
+        color: #fff;
+        font-size: rem(14px);
+        line-height: rem(24px);
+        font-family: "Ubuntu";
+        font-weight: 300;
+
+    }
+
+    &__input {
+        display: block;
+        width: 100%;
+        border: none;
+        height: rem(35px);
+        border-radius: rem(5px);
+        outline: 0;
+        padding: rem(10px);
+
+    }
+
+    &__input_type_textarea{
+        height: rem(115px);
+        resize: none;
+
+        @media(max-width:rem(767px)){
+            height: rem(80px);
+        }
+
+    }
+
+    &__radio-group:not(:last-child) {
+        margin-right: rem(20px);
+    }
+
+    &__radio {
+        margin-right: rem(5px);
+        
+    }
+
+
+    &__radio-title {
+        color: #fff;
+        font-size: rem(14px);
+        line-height: rem(24px);
+        font-family: "Ubuntu";
+        font-weight: 300;
+
+        position: relative;
+        padding-left: rem(30px);
+        margin-right: rem(10px);
+        cursor: pointer;
+        transition: .5s;   
+        
+        @media(max-width:rem(479px)){
+            font-size: rem(11px);
+        }
+    }
+
+    &__radio-title:before{
+        position: absolute;
+        display: inline-block;
+        content: "";
+        border-radius: 50%;
+        width: rem(16px);
+        height: rem(16px);
+        background: #fff;
+        left: 0;
+        top: rem(-2px);
+    }
+
+    &__radio-title_elem:before{
+        border-radius: rem(2px);
+    }
+
+    &__radio-title:after{
+        position: absolute;
+        display: inline-block;
+        content: "";
+        width: rem(8px);
+        height: rem(8px);
+        border-radius: 50%;
+        background: red;
+        top: rem(2px);
+        left: rem(4px);
+        transition: .5s;
+        opacity: 0;
+    }
+
+    &__radio-title_elem:after{
+        background: url(../images/check.svg) 50% no-repeat;
+        background-size: contain;
+        width: rem(12px);
+        height: rem(12px);
+        top: 0px;
+        left: rem(2px);
+        
+    }
+        &__radio:checked + .order-form__radio-title:after{
+            opacity: 1;
+        }
+        
+        &__radio:checked + .order-form__radio-title_elem:after{
+            opacity: 1;
+        }
+}
+
+
+.visually-hidden{
+    position: absolute;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      height: rem(1px);
+      width: rem(1px);
+      margin: rem(-1px);
+      padding: 0;
+      border: 0;
+  }
+
+.button{
+
+    &_btn{
+        font-size: rem(13px);
+        font-family: "Ubuntu";
+        font-weight: medium;
+        }
+
+    &_reset{
+        background-color: transparent;
+        text-transform: none;
+        font-size: rem(14px);
+        line-height: rem(24px);
+        font-family: "Ubuntu";
+        font-weight: 300;
+    }
+}
+

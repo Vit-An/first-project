@@ -1,11 +1,19 @@
 
+
+
 @import "config/mixins";
 @import "config/variables";
+@import "config/media";
 
 @import "layout/fonts";
 @import "layout/base";
 @import "layout/adjustment";
 
 @import "section/header";
-@import "section/the-best";
+@import "section/best";
 @import "section/reviews";
+@import "section/team";
+@import "section/menu";
+@import "section/order";
+@import "section/contacts";
+@import "section/slider";
