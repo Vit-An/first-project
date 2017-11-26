@@ -37,7 +37,11 @@
  
     &:not(:last-child):after{
      content: "";
+<<<<<<< HEAD
      display: inline-block;
+=======
+     display: block;
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
      height: rem(4px);
      width: rem(4px);
      background: #fff;
@@ -46,6 +50,10 @@
     }
 }
 .navbar__link{
+<<<<<<< HEAD
+=======
+     margin: rem(15px);
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
      color: #fff;
      font-size: rem(13px);
      text-transform: uppercase;
@@ -57,6 +65,20 @@
     }
 } 
  
+<<<<<<< HEAD
+=======
+ .button{
+     color: #fff;
+     background-color: #e45028;
+     text-decoration: none;
+     padding: rem(10px) rem(16px);
+     border-radius: rem(5px);
+     text-transform: uppercase;
+     display: inline-block;
+     font-size: rem(13px);
+     font-weight: 500;
+ }
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
  
  .nav{
      padding: 0;
@@ -131,10 +153,32 @@
         text-align: center;
         width: 80%;
     }
+<<<<<<< HEAD
     }
  
      &__text{
         font-family: "Lifehack";
+=======
+    
+     }
+ 
+     &__title{
+     font-family: "Gagalin";
+     font-size: rem(72px);
+     color: #f9b43b;
+     margin-bottom: rem(20px);
+     @media(max-width:rem(767px)){
+        font-size: rem(60px);
+    }
+
+     @media(max-width:rem(479px)){
+        font-size: rem(50px);
+        }
+     }
+ 
+     &__text{
+        font-family: "Lifehack-Medium";
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
         color: #fff;
         font-size: rem(65px);
         line-height: 0.95;

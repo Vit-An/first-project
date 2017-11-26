@@ -4,17 +4,37 @@
     position: relative;
 }
 
+<<<<<<< HEAD
 .title_order{
     text-align: center;
     margin-bottom: rem(80px);
 
     @media(max-width:rem(767px)){
         margin-bottom: rem(40px);
+=======
+.section__title{
+    text-align: center;
+    font-family: 'Gagalin';
+    font-size: rem(72px);
+    line-height: rem(64px);
+    color: #f9b43b;
+    margin-bottom: rem(80px);
+    margin-top: 0;
+
+    @media(max-width:rem(767px)){
+        font-size: rem(50px);
+        margin-bottom: rem(50px);
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
     }
 
     @media(max-width:rem(479px)){
+<<<<<<< HEAD
         margin-bottom: rem(15px);
+=======
+        font-size: rem(50px);
+        margin-bottom: rem(25px);
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     }
 
 }
@@ -94,10 +114,16 @@
         height: rem(115px);
         resize: none;
 
+<<<<<<< HEAD
         @media(max-width:rem(767px)){
             height: rem(80px);
         }
 
+=======
+    }
+
+    &__radio-group{
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     }
 
     &__radio-group:not(:last-child) {
@@ -106,10 +132,15 @@
 
     &__radio {
         margin-right: rem(5px);
+<<<<<<< HEAD
         
     }
 
 
+=======
+    }
+
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     &__radio-title {
         color: #fff;
         font-size: rem(14px);
@@ -117,6 +148,7 @@
         font-family: "Ubuntu";
         font-weight: 300;
 
+<<<<<<< HEAD
         position: relative;
         padding-left: rem(30px);
         margin-right: rem(10px);
@@ -197,12 +229,32 @@
         }
 
     &_reset{
+=======
+    }
+}
+
+.button{
+    border: none;
+    font-size: rem(13px);
+    font-family: "Ubuntu";
+    font-weight: medium;
+    cursor: pointer;
+    outline: none;
+
+    &_background_transparent{
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
         background-color: transparent;
         text-transform: none;
         font-size: rem(14px);
         line-height: rem(24px);
         font-family: "Ubuntu";
         font-weight: 300;
+<<<<<<< HEAD
     }
 }
 
+=======
+
+    }
+}
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88

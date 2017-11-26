@@ -74,6 +74,14 @@
         font-size: rem(12px);
         line-height: 1.5;
 
+<<<<<<< HEAD
+=======
+    }
+
+    @media(max-width:rem(479px)){
+        display: none;
+    }
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     }
 
     @media(max-width:rem(479px)){
@@ -86,6 +94,14 @@
 
 .button_reviews{
     background-color: #2f3234;
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+    padding: rem(10px) rem(16px);
+    border-radius: rem(5px);
+    text-transform: uppercase;
+    display: inline-block;
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     font-size: rem(13px);
     font-weight: 500;
 
@@ -93,5 +109,9 @@
         padding: rem(8px) rem(10px);
         font-size: rem(10px);
 
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     }
 }
