@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700");
-<<<<<<< HEAD
 @font-face { font-family: 'Lifehack-Medium'; src: url("../fonts/Lifehack/Lifehack-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Lifehack/Lifehack-Medium.otf") format("opentype"), url("../fonts/Lifehack/Lifehack-Medium.woff") format("woff"), url("../fonts/Lifehack/Lifehack-Medium.ttf") format("truetype"), url("../fonts/Lifehack/Lifehack-Medium.svg#Lifehack-Medium") format("svg"); font-weight: normal; font-style: normal; }
 
 @font-face { font-family: 'Gagalin-Regular'; src: url("../fonts/Gagalin/Gagalin-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gagalin/Gagalin-Regular.otf") format("opentype"), url("../fonts/Gagalin/Gagalin-Regular.woff") format("woff"), url("../fonts/Gagalin/Gagalin-Regular.ttf") format("truetype"), url("../fonts/Gagalin/Gagalin-Regular.svg#Gagalin-Regular") format("svg"); font-weight: normal; font-style: normal; }
-=======
-@font-face { font-family: 'Lifehack-Medium'; src: url("fonts/Lifehack/Lifehack-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Lifehack/Lifehack-Medium.otf") format("opentype"), url("fonts/Lifehack/Lifehack-Medium.woff") format("woff"), url("./fonts/Lifehack/Lifehack-Medium.ttf") format("truetype"), url("fonts/Lifehack/Lifehack-Medium.svg#Lifehack-Medium") format("svg"); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: 'Gagalin'; src: url("fonts/Gagalin/Gagalin-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Gagalin/Gagalin-Regular.otf") format("opentype"), url("fonts/Gagalin/Gagalin-Regular.woff") format("woff"), url("./fonts/Gagalin/Gagalin-Regular.ttf") format("truetype"), url("fonts/Gagalin/Gagalin-Regular.svg#Gagalin-Regular") format("svg"); font-weight: normal; font-style: normal; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 *, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -21,7 +15,6 @@ body, html { height: 100%; }
 
 .section { height: 100vh; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; background-color: rgba(0, 0, 0, 0.31); min-height: 40.625rem; }
 
-<<<<<<< HEAD
 .button { color: #fff; background-color: #e45028; text-decoration: none; padding: 0.625rem 1rem; border-radius: 0.3125rem; text-transform: uppercase; display: inline-block; font-size: 0.8125rem; font-weight: 500; cursor: pointer; outline: none; border: none; }
 
 .title { font-family: "Gagalin"; font-size: 4.5rem; line-height: 4rem; color: #f9b43b; margin-bottom: 1.25rem; }
@@ -30,8 +23,6 @@ body, html { height: 100%; }
 
 @media (max-width: 29.9375rem) { .title { font-size: 3.125rem; line-height: 3.75rem; } }
 
-=======
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 .header { padding: 0.75rem 0; position: absolute; top: 0; left: 0; right: 0; z-index: 10; }
 
 .header__inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
@@ -40,7 +31,6 @@ body, html { height: 100%; }
 
 @media (max-width: 47.9375rem) { .navbar { display: none; } }
 
-<<<<<<< HEAD
 .navbar__items { padding: 0; margin-right: 1.25rem; list-style: none; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
 .navbar__item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
@@ -51,20 +41,6 @@ body, html { height: 100%; }
 
 .navbar__link:hover { text-decoration: underline; }
 
-=======
-.navbar__items { padding: 0; margin: 0; list-style: none; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-
-.navbar__item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
-
-.navbar__item:not(:last-child):after { content: ""; display: block; height: 0.25rem; width: 0.25rem; background: #fff; border-radius: 50%; }
-
-.navbar__link { margin: 0.9375rem; color: #fff; font-size: 0.8125rem; text-transform: uppercase; text-decoration: none; font-weight: 500; }
-
-.navbar__link:hover { text-decoration: underline; }
-
-.button { color: #fff; background-color: #e45028; text-decoration: none; padding: 0.625rem 1rem; border-radius: 0.3125rem; text-transform: uppercase; display: inline-block; font-size: 0.8125rem; font-weight: 500; }
-
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 .nav { padding: 0; margin: 0; list-style: none; position: fixed; top: 15%; right: 1.875rem; z-index: 10; }
 
 .nav__link { display: block; padding: 0.25rem; margin: 0.1875rem; border: 0.0625rem solid transparent; border-radius: 50%; }
@@ -89,23 +65,12 @@ body, html { height: 100%; }
 
 @media (max-width: 47.9375rem) { .about__description { text-align: center; width: 80%; } }
 
-<<<<<<< HEAD
 .about__text { font-family: "Lifehack"; color: #fff; font-size: 4.0625rem; line-height: 0.95; }
-=======
-.about__title { font-family: "Gagalin"; font-size: 4.5rem; color: #f9b43b; margin-bottom: 1.25rem; }
-
-@media (max-width: 47.9375rem) { .about__title { font-size: 3.75rem; } }
-
-@media (max-width: 29.9375rem) { .about__title { font-size: 3.125rem; } }
-
-.about__text { font-family: "Lifehack-Medium"; color: #fff; font-size: 4.0625rem; line-height: 0.95; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 @media (max-width: 29.9375rem) { .about__text { font-size: 3.125rem; } }
 
 .button-next { position: absolute; left: 50%; bottom: 1.875rem; -webkit-transform: translateX(-50%) rotate(45deg); -ms-transform: translateX(-50%) rotate(45deg); transform: translateX(-50%) rotate(45deg); height: 1.125rem; width: 1.125rem; border-right: 0.1875rem solid #fff; border-bottom: 0.1875rem solid #fff; }
 
-<<<<<<< HEAD
 .title_best { text-align: center; margin-bottom: 5.625rem; color: #2f3234; }
 
 @media (max-width: 29.9375rem) { .title_best { font-size: 3.125rem; margin-bottom: 0.625rem; } }
@@ -129,29 +94,6 @@ body, html { height: 100%; }
 .best__item-info { font-family: 'Ubuntu'; font-size: 0.875rem; line-height: 1.5625rem; color: #787776; font-weight: 400; line-height: 1.5rem; }
 
 @media (max-width: 29.9375rem) { .best__item-info { line-height: 1; } }
-=======
-.the-best { background: url(../images/the-best.png) no-repeat 50% 50%; background-size: cover; }
-
-@media (max-width: 29.9375rem) { .the-best__photo { width: 15%; height: auto; } }
-
-@media (max-width: 29.9375rem) { .the-best__content { width: 80%; } }
-
-.the-best__title { text-align: center; padding-top: 0.625rem; font-family: 'Gagalin'; font-size: 4.5rem; line-height: 4rem; position: relative; margin-bottom: 5.625rem; color: #2f3234; }
-
-@media (max-width: 29.9375rem) { .the-best__title { font-size: 3.125rem; margin-bottom: 3.125rem; } }
-
-.the-best__about { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; text-align: center; -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; margin: 0 -0.625rem; }
-
-@media (max-width: 29.9375rem) { .the-best__about { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; } }
-
-.meat, .hand, .natural { text-align: center; width: 33.33334%; padding: 0 0.625rem; }
-
-@media (max-width: 29.9375rem) { .meat, .hand, .natural { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; text-align: left; } }
-
-.title { font-family: 'Lifehack-Medium'; font-size: 1.5rem; font-weight: 300; color: #2f3234; }
-
-.the-best__info { font-family: 'Ubuntu'; font-size: 0.875rem; line-height: 1.5625rem; color: #787776; font-weight: 400; line-height: 1.5rem; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .reviews { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
@@ -179,7 +121,6 @@ body, html { height: 100%; }
 
 @media (max-width: 29.9375rem) { .review__text { display: none; } }
 
-<<<<<<< HEAD
 .button_reviews { background-color: #2f3234; font-size: 0.8125rem; font-weight: 500; }
 
 @media (max-width: 47.9375rem) { .button_reviews { padding: 0.5rem 0.625rem; font-size: 0.625rem; } }
@@ -209,35 +150,6 @@ li { list-style: none; }
 .team-acco__img { display: inline-block; vertical-align: top; width: 6.25rem; height: 6.25rem; background-size: cover; background-position: 50%; background-repeat: no-repeat; border-radius: 50%; }
 
 .team-acco__item_active .team-acco__inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-=======
-.review__button { color: #fff; background-color: #2f3234; text-decoration: none; padding: 0.625rem 1rem; border-radius: 0.3125rem; text-transform: uppercase; display: inline-block; font-size: 0.8125rem; font-weight: 500; }
-
-@media (max-width: 47.9375rem) { .review__button { padding: 0.5rem 0.625rem; font-size: 0.625rem; } }
-
-.team { background: url(../images/team.png) no-repeat 50% 50%; background-size: cover; position: relative; }
-
-.team__content { padding: 0 5rem; }
-
-@media (max-width: 47.9375rem) { .team__content { text-align: center; } }
-
-.bg { width: 50%; position: absolute; top: 0; right: 0; bottom: 0; background: rgba(47, 50, 52, 0.93); }
-
-@media (max-width: 47.9375rem) { .bg { width: 100%; } }
-
-.section-title { font-family: 'Gagalin'; font-size: 4.5rem; line-height: 4rem; margin: 5.625rem 0; color: #f9b43b; }
-
-@media (max-width: 29.9375rem) { .section-title { font-size: 3.125rem; } }
-
-@media (max-width: 47.9375rem) { .team-acco { width: 50%; margin: 0 auto; } }
-
-@media (max-width: 29.9375rem) { .team-acco { width: 100%; } }
-
-.team-acco__inner { display: none; }
-
-@media (max-width: 47.9375rem) { .team-acco__inner { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; } }
-
-.team-acco_active .team-acco__inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .team-acco__name { text-decoration: none; color: #fff; font-family: 'Gagalin'; font-size: 0.875rem; line-height: 1.75rem; margin-bottom: 1.25rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
@@ -245,21 +157,11 @@ li { list-style: none; }
 
 @media (max-width: 47.9375rem) { .team-acco__name { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; } }
 
-<<<<<<< HEAD
 .team-acco__item_active .team-acco__name { color: #f9b43b; }
 
 .team-acco__item_active .team-acco__name:before { -webkit-transform: rotate(-180deg); -ms-transform: rotate(-180deg); transform: rotate(-180deg); }
 
 .inform { margin-left: 0.625rem; width: 70%; }
-=======
-.team-acco_active .team-acco__name { color: #f9b43b; }
-
-.team-acco_active .team-acco__name:before { -webkit-transform: rotate(-180deg); -ms-transform: rotate(-180deg); transform: rotate(-180deg); }
-
-.acco-photo { border-radius: 50%; width: 6.25rem; height: 6.25rem; }
-
-.inform { margin-left: 0.625rem; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 @media (max-width: 47.9375rem) { .inform { margin-left: 0; margin-top: 0.625rem; } }
 
@@ -269,15 +171,9 @@ li { list-style: none; }
 
 .menu { background: url(../images/menu.png) no-repeat 50% 50%; background-size: cover; position: relative; }
 
-<<<<<<< HEAD
 .menu__kinds { padding: 0; margin: 0; list-style: none; position: absolute; top: 0; right: 0; bottom: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
 
 .title_menu { position: absolute; top: 0; right: 0; bottom: 0; left: 5.9375rem; margin: 5.625rem 0; color: #fff; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-=======
-.menu__title { position: absolute; top: 0; right: 0; bottom: 0; left: 5.9375rem; font-family: 'Gagalin'; font-size: 4.5rem; line-height: 4rem; margin: 5.625rem 0; color: #fff; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-
-.menu__kinds { padding: 0; margin: 0; list-style: none; position: absolute; top: 0; right: 0; bottom: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .kind { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; max-width: 50%; }
 
@@ -285,11 +181,7 @@ li { list-style: none; }
 
 .kind__title { background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; height: 100%; width: 5rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
-<<<<<<< HEAD
 @media (max-width: 29.9375rem) { .kind__title { width: 2.5rem; } }
-=======
-@media (max-width: 29.9375rem) { .kind__title { width: 3.125rem; } }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .kind__title-inner { -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); white-space: nowrap; font-family: "Gagalin"; font-size: 2.5rem; line-height: 4rem; color: #fff; }
 
@@ -297,11 +189,7 @@ li { list-style: none; }
 
 .kind__text { background: rgba(47, 50, 52, 0.93); padding: 3.75rem 2.1875rem; font-family: "Ubuntu"; font-weight: 300; font-size: 0.875rem; line-height: 1.5rem; color: #fff; }
 
-<<<<<<< HEAD
 @media (max-width: 29.9375rem) { .kind__text { padding: 1.25rem 0.9375rem; line-height: 1; } }
-=======
-@media (max-width: 29.9375rem) { .kind__text { padding: 1.25rem 0.9375rem; } }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .kind:not(.kind_active) .kind__text { display: none; }
 
@@ -309,19 +197,11 @@ li { list-style: none; }
 
 .order { background: url(../images/order.png) no-repeat 50% 50%; background-size: cover; position: relative; }
 
-<<<<<<< HEAD
 .title_order { text-align: center; margin-bottom: 5rem; }
 
 @media (max-width: 47.9375rem) { .title_order { margin-bottom: 2.5rem; } }
 
 @media (max-width: 29.9375rem) { .title_order { margin-bottom: 0.9375rem; } }
-=======
-.section__title { text-align: center; font-family: 'Gagalin'; font-size: 4.5rem; line-height: 4rem; color: #f9b43b; margin-bottom: 5rem; margin-top: 0; }
-
-@media (max-width: 47.9375rem) { .section__title { font-size: 3.125rem; margin-bottom: 3.125rem; } }
-
-@media (max-width: 29.9375rem) { .section__title { font-size: 3.125rem; margin-bottom: 1.5625rem; } }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 @media (max-width: 47.9375rem) { .order-form { width: 70%; margin: 0 auto; } }
 
@@ -347,16 +227,12 @@ li { list-style: none; }
 
 .order-form__input_type_textarea { height: 7.1875rem; resize: none; }
 
-<<<<<<< HEAD
 @media (max-width: 47.9375rem) { .order-form__input_type_textarea { height: 5rem; } }
 
-=======
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 .order-form__radio-group:not(:last-child) { margin-right: 1.25rem; }
 
 .order-form__radio { margin-right: 0.3125rem; }
 
-<<<<<<< HEAD
 .order-form__radio-title { color: #fff; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: 300; position: relative; padding-left: 1.875rem; margin-right: 0.625rem; cursor: pointer; -webkit-transition: .5s; -o-transition: .5s; transition: .5s; }
 
 @media (max-width: 29.9375rem) { .order-form__radio-title { font-size: 0.6875rem; } }
@@ -378,13 +254,6 @@ li { list-style: none; }
 .button_btn { font-size: 0.8125rem; font-family: "Ubuntu"; font-weight: medium; }
 
 .button_reset { background-color: transparent; text-transform: none; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: 300; }
-=======
-.order-form__radio-title { color: #fff; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: 300; }
-
-.button { border: none; font-size: 0.8125rem; font-family: "Ubuntu"; font-weight: medium; cursor: pointer; outline: none; }
-
-.button_background_transparent { background-color: transparent; text-transform: none; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: 300; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .footer { background: url(../images/footer.png) no-repeat 50% 50%; background-size: cover; position: absolute; left: 0; right: 0; bottom: 0; padding: 1.25rem 0; }
 
@@ -400,23 +269,15 @@ li { list-style: none; }
 
 @media (max-width: 29.9375rem) { .address { text-align: center; width: 100%; } }
 
-<<<<<<< HEAD
 .address__addres { color: #fff; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: 300; font-style: normal; }
 
 @media (max-width: 29.9375rem) { .address__addres { font-size: 0.75rem; } }
-=======
-.address__addres { color: #fff; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: 300; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .address__phone { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; }
 
 .address__phone-icon { margin-right: 0.3125rem; }
 
-<<<<<<< HEAD
 .address__phone-number { color: #e45028; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: bold; text-decoration: none; }
-=======
-.address__phone-number { color: #e45028; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: bold; }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 
 .icons { width: 50%; text-align: right; margin-bottom: 0; }
 
@@ -426,7 +287,6 @@ li { list-style: none; }
 
 @media (max-width: 29.9375rem) { .icons__socials { margin-top: 0.625rem; } }
 
-<<<<<<< HEAD
 .icons__socials-inner { display: inline-block; vertical-align: middle; margin-left: .625rem; width: 1.25rem; height: 1.25rem; }
 
 .icons__socials-inner:not(:last-child) { margin-right: 1.25rem; }
@@ -478,12 +338,3 @@ li { list-style: none; }
 @media (max-width: 29.9375rem) { .button_slider { font-size: 0.75rem; } }
 
 /*# sourceMappingURL=main.css.map */
-=======
-.icons__socials-inner { display: inline-block; }
-
-.icons__socials-inner:not(:last-child) { margin-right: 1.25rem; }
-
-.icons__socials-ico { height: 0.9375rem; }
-
-/*# sourceMappingURL=main.css.map */
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88

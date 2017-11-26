@@ -50,15 +50,11 @@
         line-height: rem(24px);
         font-family: "Ubuntu";
         font-weight: 300;
-<<<<<<< HEAD
         font-style: normal;
 
         @media(max-width:rem(479px)){
            font-size: rem(12px);
         }
-=======
-
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     }
 
     &__phone{
@@ -75,10 +71,7 @@
         line-height: rem(24px);
         font-family: "Ubuntu";
         font-weight: bold;
-<<<<<<< HEAD
         text-decoration: none;
-=======
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
     }
 }
 
@@ -105,20 +98,16 @@
 
     &__socials-inner{
         display: inline-block;
-<<<<<<< HEAD
         vertical-align: middle;
         margin-left: .625rem;
         width: 1.25rem;
         height: 1.25rem;
-=======
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
         
         &:not(:last-child){
             margin-right:rem(20px);
         }
     }
 
-<<<<<<< HEAD
     &__socials-link{
         display: inline-block;
         max-width: 1.4375rem;
@@ -142,19 +131,4 @@
         margin-left: 0; 
         }
 }
-=======
-    &__socials{
-        
-    }
-    
-    &__socials-ico{
-        height: rem(15px);
-
-
-    }
-
-    &__socials-link{
-
-    }
->>>>>>> 5642104a19f73022ff350cf2633de4e2a33bff88
 }
