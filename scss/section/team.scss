@@ -52,6 +52,7 @@ li{
     
     margin-bottom: 5%;
     display: none;
+   
 
     @media(max-width:rem(767px)){
     flex-direction: column;
@@ -84,7 +85,7 @@ li{
     
     text-decoration: none;
     color: #fff;
-    font-family: 'Gagalin';
+    font-family: 'Gagalin-Regular';
     font-size: rem(14px);
     line-height: rem(28px);
     margin-bottom: rem(20px);

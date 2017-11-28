@@ -14,17 +14,13 @@
     padding: 0;
     margin:0;
 }
-.contacts-maps{
-    background: url(../images/map.png) no-repeat 50% 50%;
-    background-size: cover;
+.contacts-map{
     position: absolute;
     top:0;
     right: 0;
     left:0;
     bottom: 0;
-
 }
-
 
 .footer-container{
     display: flex;
@@ -132,3 +128,4 @@
         }
 }
 }
+

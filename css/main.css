@@ -17,7 +17,7 @@ body, html { height: 100%; }
 
 .button { color: #fff; background-color: #e45028; text-decoration: none; padding: 0.625rem 1rem; border-radius: 0.3125rem; text-transform: uppercase; display: inline-block; font-size: 0.8125rem; font-weight: 500; cursor: pointer; outline: none; border: none; }
 
-.title { font-family: "Gagalin"; font-size: 4.5rem; line-height: 4rem; color: #f9b43b; margin-bottom: 1.25rem; }
+.title { font-family: "Gagalin-Regular"; font-size: 4.5rem; line-height: 4rem; color: #f9b43b; margin-bottom: 1.25rem; }
 
 @media (max-width: 47.9375rem) { .title { font-size: 3.125rem; } }
 
@@ -65,7 +65,7 @@ body, html { height: 100%; }
 
 @media (max-width: 47.9375rem) { .about__description { text-align: center; width: 80%; } }
 
-.about__text { font-family: "Lifehack"; color: #fff; font-size: 4.0625rem; line-height: 0.95; }
+.about__text { font-family: "Lifehack-Medium"; color: #fff; font-size: 4.0625rem; line-height: 0.95; }
 
 @media (max-width: 29.9375rem) { .about__text { font-size: 3.125rem; } }
 
@@ -89,7 +89,7 @@ body, html { height: 100%; }
 
 @media (max-width: 29.9375rem) { .best__item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; text-align: left; } }
 
-.best__item-title { font-family: 'Lifehack'; font-size: 1.5rem; font-weight: 300; color: #2f3234; margin-top: 1.875rem; margin-bottom: 0.9375rem; }
+.best__item-title { font-family: 'Lifehack-Medium'; font-size: 1.5rem; font-weight: 300; color: #2f3234; margin-top: 1.875rem; margin-bottom: 0.9375rem; }
 
 .best__item-info { font-family: 'Ubuntu'; font-size: 0.875rem; line-height: 1.5625rem; color: #787776; font-weight: 400; line-height: 1.5rem; }
 
@@ -109,7 +109,7 @@ body, html { height: 100%; }
 
 .review:hover .review__info { opacity: 1; }
 
-.review__title { font-family: 'Gagalin'; font-size: 0.875rem; line-height: 1.75rem; text-transform: uppercase; color: #fff; font-weight: 400; margin: 0 0 1.25rem; }
+.review__title { font-family: 'Gagalin-Regular'; font-size: 0.875rem; line-height: 1.75rem; text-transform: uppercase; color: #fff; font-weight: 400; margin: 0 0 1.25rem; }
 
 @media (max-width: 47.9375rem) { .review__title { margin: 0; } }
 
@@ -151,7 +151,7 @@ li { list-style: none; }
 
 .team-acco__item_active .team-acco__inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
-.team-acco__name { text-decoration: none; color: #fff; font-family: 'Gagalin'; font-size: 0.875rem; line-height: 1.75rem; margin-bottom: 1.25rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+.team-acco__name { text-decoration: none; color: #fff; font-family: 'Gagalin-Regular'; font-size: 0.875rem; line-height: 1.75rem; margin-bottom: 1.25rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
 .team-acco__name:before { content: ""; height: 0; width: 0; border: 0.5625rem solid transparent; border-top-color: #f9b43b; border-bottom-width: 0; margin-right: 0.625rem; }
 
@@ -175,25 +175,33 @@ li { list-style: none; }
 
 .title_menu { position: absolute; top: 0; right: 0; bottom: 0; left: 5.9375rem; margin: 5.625rem 0; color: #fff; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
-.kind { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; max-width: 50%; }
-
-@media (max-width: 47.9375rem) { .kind { max-width: none; } }
+.kind { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
 .kind__title { background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; height: 100%; width: 5rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
 @media (max-width: 29.9375rem) { .kind__title { width: 2.5rem; } }
 
-.kind__title-inner { -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); white-space: nowrap; font-family: "Gagalin"; font-size: 2.5rem; line-height: 4rem; color: #fff; }
+.kind__title-inner { -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); white-space: nowrap; font-family: "Gagalin-Regular"; font-size: 2.5rem; color: #fff; }
 
-@media (max-width: 29.9375rem) { .kind__title-inner { font-size: 1.875rem; } }
+@media (max-width: 29.9375rem) { .kind__title-inner { font-size: 1.25rem; } }
 
-.kind__text { background: rgba(47, 50, 52, 0.93); padding: 3.75rem 2.1875rem; font-family: "Ubuntu"; font-weight: 300; font-size: 0.875rem; line-height: 1.5rem; color: #fff; }
+.kind__text { background: rgba(47, 50, 52, 0.93); padding: 3.75rem 2.1875rem; font-family: "Ubuntu"; font-weight: 300; font-size: 0.875rem; line-height: 1.5rem; color: #fff; max-width: 400px; -webkit-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; -webkit-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
 
 @media (max-width: 29.9375rem) { .kind__text { padding: 1.25rem 0.9375rem; line-height: 1; } }
 
-.kind:not(.kind_active) .kind__text { display: none; }
+.kind:not(.kind_active) .kind__text { max-width: 0; padding-left: 0; padding-right: 0; -webkit-transition-delay: 0.4s; -o-transition-delay: 0.4s; transition-delay: 0.4s; }
+
+.kind__text-inner { -webkit-animation: fadeIn 0.4s; animation: fadeIn 0.4s; }
+
+.kind:not(.kind_active) .kind__text-inner { display: none; }
 
 .kind_active .kind__title-inner { color: #f9b43b; }
+
+@-webkit-keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
 
 .order { background: url(../images/order.png) no-repeat 50% 50%; background-size: cover; position: relative; }
 
@@ -259,7 +267,7 @@ li { list-style: none; }
 
 .contacts { position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: 0; margin: 0; }
 
-.contacts-maps { background: url(../images/map.png) no-repeat 50% 50%; background-size: cover; position: absolute; top: 0; right: 0; left: 0; bottom: 0; }
+.contacts-map { position: absolute; top: 0; right: 0; left: 0; bottom: 0; }
 
 .footer-container { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
@@ -321,13 +329,13 @@ li { list-style: none; }
 
 .slider__options-left { display: inline-block; vertical-align: middle; }
 
-.slider__options-left-price { display: inline-block; font-family: 'Gagalin'; font-size: 4.5rem; line-height: 1.75rem; color: #e35028; }
+.slider__options-left-price { display: inline-block; font-family: 'Gagalin-Regular'; font-size: 4.5rem; line-height: 1.75rem; color: #e35028; }
 
 @media (max-width: 47.9375rem) { .slider__options-left-price { font-size: 3.75rem; } }
 
 @media (max-width: 29.9375rem) { .slider__options-left-price { font-size: 2.5rem; } }
 
-.slider__options-left-currency { display: inline-block; font-family: 'Gagalin'; font-size: 1.875rem; line-height: 1.75rem; color: #e35028; }
+.slider__options-left-currency { display: inline-block; font-family: 'Gagalin-Regular'; font-size: 1.875rem; line-height: 1.75rem; color: #e35028; }
 
 @media (max-width: 47.9375rem) { .slider__options-left-currency { font-size: 1.5625rem; } }
 
