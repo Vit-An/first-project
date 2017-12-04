@@ -1,12 +1,4 @@
-.footer{
-    background: url(../images/footer.png) no-repeat 50% 50%;
-    background-size: cover;
-    position: absolute;
-    left:0;
-    right: 0;
-    bottom: 0;
-    padding: rem(20px) 0;
-}
+
 .contacts{
     position: relative;
     display: flex;
@@ -15,12 +7,18 @@
     margin:0;
 }
 .contacts-map{
-    position: absolute;
-    top:0;
-    right: 0;
-    left:0;
-    bottom: 0;
+    width: 100%;
+    flex: 1;
+
 }
+
+.footer{
+    background: url(../images/footer.png) no-repeat 50% 50%;
+    background-size: cover;
+    padding: rem(20px) 0;
+    width: 100%;
+}
+
 
 .footer-container{
     display: flex;

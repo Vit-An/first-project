@@ -48,10 +48,13 @@ li{
     }
     }
 
+    &__content {
+        display: none;
+        margin-bottom: 5%;
+    }
+
     &__inner{
-    
-    margin-bottom: 5%;
-    display: none;
+    display: flex;
    
 
     @media(max-width:rem(767px)){
@@ -75,11 +78,6 @@ li{
         background-repeat: no-repeat;
         border-radius: 50%;
     }
-        
-
-    &__item_active &__inner {
-        display: flex;
-    }
 
     &__name{
     
@@ -91,6 +89,7 @@ li{
     margin-bottom: rem(20px);
     display: flex;
     align-items: center;
+    outline: 0;
 
         &:before{
             content: "";

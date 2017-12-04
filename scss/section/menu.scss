@@ -66,40 +66,31 @@
 
     &__text{
         background: rgba(#2f3234, 0.93);
-        padding: rem(60px) rem(35px);
         font-family: "Ubuntu";
         font-weight: 300;
         font-size: rem(14px);
         line-height: rem(24px);
         color: #fff;
-        max-width: 400px;
+        max-width: 500px;
+        width: 0;
         transition: all 0.4s;
-        transition-delay: 0s;
-
-        @media(max-width:rem(479px)){
-            padding: rem(20px) rem(15px);
-            line-height: 1;
-        }
     }
 
-
-    &:not(&_active) &__text {
-        max-width: 0;
-        padding-left: 0;
-        padding-right: 0;
-        transition-delay: 0.4s;
-        
-    }
 
     &__text-inner{
-        animation: fadeIn 0.4s;
-    }
-    
-    &:not(&_active) &__text-inner {
-        
-        display: none;
-    }
 
+        display: none;
+        padding: rem(60px) rem(35px);
+        
+        @media(max-width:rem(479px)){
+            
+            padding: rem(20px) rem(15px);
+            line-height: 1;
+            
+        }
+
+    }
+ 
     &_active &__title-inner{
             color: #f9b43b;
             

@@ -141,7 +141,9 @@ li { list-style: none; }
 
 @media (max-width: 29.9375rem) { .team-acco__item { width: 100%; } }
 
-.team-acco__inner { margin-bottom: 5%; display: none; }
+.team-acco__content { display: none; margin-bottom: 5%; }
+
+.team-acco__inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
 @media (max-width: 47.9375rem) { .team-acco__inner { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; } }
 
@@ -149,9 +151,7 @@ li { list-style: none; }
 
 .team-acco__img { display: inline-block; vertical-align: top; width: 6.25rem; height: 6.25rem; background-size: cover; background-position: 50%; background-repeat: no-repeat; border-radius: 50%; }
 
-.team-acco__item_active .team-acco__inner { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-
-.team-acco__name { text-decoration: none; color: #fff; font-family: 'Gagalin-Regular'; font-size: 0.875rem; line-height: 1.75rem; margin-bottom: 1.25rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+.team-acco__name { text-decoration: none; color: #fff; font-family: 'Gagalin-Regular'; font-size: 0.875rem; line-height: 1.75rem; margin-bottom: 1.25rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; outline: 0; }
 
 .team-acco__name:before { content: ""; height: 0; width: 0; border: 0.5625rem solid transparent; border-top-color: #f9b43b; border-bottom-width: 0; margin-right: 0.625rem; }
 
@@ -185,15 +185,11 @@ li { list-style: none; }
 
 @media (max-width: 29.9375rem) { .kind__title-inner { font-size: 1.25rem; } }
 
-.kind__text { background: rgba(47, 50, 52, 0.93); padding: 3.75rem 2.1875rem; font-family: "Ubuntu"; font-weight: 300; font-size: 0.875rem; line-height: 1.5rem; color: #fff; max-width: 400px; -webkit-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; -webkit-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
+.kind__text { background: rgba(47, 50, 52, 0.93); font-family: "Ubuntu"; font-weight: 300; font-size: 0.875rem; line-height: 1.5rem; color: #fff; max-width: 500px; width: 0; -webkit-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; }
 
-@media (max-width: 29.9375rem) { .kind__text { padding: 1.25rem 0.9375rem; line-height: 1; } }
+.kind__text-inner { display: none; padding: 3.75rem 2.1875rem; }
 
-.kind:not(.kind_active) .kind__text { max-width: 0; padding-left: 0; padding-right: 0; -webkit-transition-delay: 0.4s; -o-transition-delay: 0.4s; transition-delay: 0.4s; }
-
-.kind__text-inner { -webkit-animation: fadeIn 0.4s; animation: fadeIn 0.4s; }
-
-.kind:not(.kind_active) .kind__text-inner { display: none; }
+@media (max-width: 29.9375rem) { .kind__text-inner { padding: 1.25rem 0.9375rem; line-height: 1; } }
 
 .kind_active .kind__title-inner { color: #f9b43b; }
 
@@ -263,11 +259,11 @@ li { list-style: none; }
 
 .button_reset { background-color: transparent; text-transform: none; font-size: 0.875rem; line-height: 1.5rem; font-family: "Ubuntu"; font-weight: 300; }
 
-.footer { background: url(../images/footer.png) no-repeat 50% 50%; background-size: cover; position: absolute; left: 0; right: 0; bottom: 0; padding: 1.25rem 0; }
-
 .contacts { position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: 0; margin: 0; }
 
-.contacts-map { position: absolute; top: 0; right: 0; left: 0; bottom: 0; }
+.contacts-map { width: 100%; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+
+.footer { background: url(../images/footer.png) no-repeat 50% 50%; background-size: cover; padding: 1.25rem 0; width: 100%; }
 
 .footer-container { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
